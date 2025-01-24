@@ -1,0 +1,58 @@
+﻿.page {
+    background: lightgray;
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    justify-content: center;
+}
+
+.leftPart {
+    width: 50%
+}
+.rightPart {
+    padding-top: 40px;
+    width: 45%
+}
+
+.expressionPanel {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.errorMessage {
+    color: red;
+    font-size: xx-large
+}
+
+.expressionInput,
+.expressionInput::placeholder {  
+    width: 100%;
+    height: auto;
+    font-size: xxx-large;
+    margin-bottom: 10px;
+}
+
+.sentExpression {
+    font-size: xx-large;
+    color: darkgray;
+}
+
+.mainButtonsPanel {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.button {
+    font-size: xxx-large;
+    margin: 1%;
+    color: white;
+    width: 31%;
+}
+
+.providersDropdown {
+    font-size: xxx-large;
+    padding: 30px;
+}
